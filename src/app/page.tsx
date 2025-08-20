@@ -52,9 +52,20 @@ export default function Home() {
       </section>
 
       {/* WHO IT’S FOR */}
-      <section id="who" className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">Who it’s for</h2>
-        <ul className="mt-8 grid gap-4 text-neutral-300 md:grid-cols-2">
+      <section
+  id="who"
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    Who it’s for
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    This book is built for people ready to confront the chaos and take control.
+  </p>
+  <ul className="mt-12 grid gap-8 text-neutral-300 md:grid-cols-2 lg:grid-cols-3">
+
+
           <Li icon={<IconBrain />}>
             People who <b className="text-neutral-100 font-medium">feel everything too deeply</b> and want control—not numbness.
           </Li>
@@ -77,9 +88,19 @@ export default function Home() {
       </section>
 
       {/* WHAT YOU’LL LEARN (5 clusters) */}
-      <section id="learn" className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">What you’ll learn</h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <section
+  id="learn"
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    What you’ll learn
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    Core lessons distilled from the book, grouped into 5 powerful themes.
+  </p>
+  <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
           <Card
             icon={<IconMind />}
             title="Mind & Subconscious"
