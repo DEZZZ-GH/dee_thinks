@@ -11,20 +11,23 @@ export default function Home() {
             <p className="text-xs uppercase tracking-widest text-neutral-400">Ebook</p>
             {/* Keep title placeholder for now (you said we’ll lock titles later) */}
             <h1 className="mt-3 text-4xl font-semibold md:text-6xl">
-              [Your Ebook Title]
-            </h1>
+              CTRL ALT GROW
+            </h1> 
+            <p className="mt-2 text-lg italic text-neutral-500">
+  by DUA EZZ <span className="not-italic text-neutral-400">(aka Dee Thinks)</span>
+</p>
             <p className="mt-4 max-w-xl text-neutral-300">
-              Not therapy—tactics. Break the loops, own your mind, run your life.
+              Self-help failed you. This is clarity for when you’re stuck in the spiral.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-3">
               <a
-                href="https://gumroad.com/l/PRODUCT_ID" /* TODO: replace with your real link */
+                href="https://deethinks.gumroad.com/l/CtrlAltGrow" /* TODO: replace with your real link */
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-xl bg-violet-600 px-5 py-3 font-medium hover:bg-violet-500 transition focus:outline-none focus:ring-2 focus:ring-violet-500/60"
               >
-                Get the ebook
+                Discover
               </a>
               <a
                 href="#learn"
@@ -37,11 +40,17 @@ export default function Home() {
 
           <div className="relative">
             <div className="rounded-2xl border border-neutral-800 bg-neutral-900/60 p-3">
-              <img
-                src="/cover.png"
-                alt="Ebook cover"
-                className="w-full max-w-sm mx-auto rounded-xl shadow-lg"
-              />
+              <a
+  href="https://deethinks.gumroad.com/l/CtrlAltGrow"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="/cover.png"
+    alt="Ebook cover"
+    className="w-full max-w-sm mx-auto rounded-xl shadow-lg cursor-pointer transition hover:opacity-90"
+  />
+</a>
             </div>
             <div
               aria-hidden
@@ -67,7 +76,7 @@ export default function Home() {
 
 
           <Li icon={<IconBrain />}>
-            People who <b className="text-neutral-100 font-medium">feel everything too deeply</b> and want control—not numbness.
+            People who <b className="text-neutral-100 font-medium">feel everything too deeply</b> and want control, not numbness.
           </Li>
           <Li icon={<IconLoop />}>
             Overthinkers with <b className="text-neutral-100 font-medium">high standards</b> stuck in loops.
@@ -76,7 +85,7 @@ export default function Home() {
             Builders/students/creators juggling <b className="text-neutral-100 font-medium">school, side projects, or work</b>.
           </Li>
           <Li icon={<IconGears />}>
-            Those who want <b className="text-neutral-100 font-medium">protocols, not pep talks</b>—clear steps, daily reps.
+            Those who want <b className="text-neutral-100 font-medium">protocols, not pep talks</b>. Clear steps, daily reps.
           </Li>
           <Li icon={<IconNoise />}>
             Anyone ready to <b className="text-neutral-100 font-medium">cut dopamine noise</b> and rebuild discipline.
@@ -150,9 +159,18 @@ export default function Home() {
       </section>
 
       {/* 3 BENEFITS */}
-      <section className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">What you get (in outcomes)</h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-3">
+      <section
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    What you get
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    Tangible outcomes you’ll build after applying the book.
+  </p>
+  <div className="mt-12 grid gap-8 md:grid-cols-3">
+
           <Benefit
             icon={<IconEye />}
             title="Clarity"
@@ -172,35 +190,62 @@ export default function Home() {
       </section>
 
       {/* SAMPLE (optional; safe even if cover.jpg duplicates) */}
-      <section className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">Inside the book</h2>
-        <p className="mt-3 text-neutral-300">Raw. Annotated. No recycled self-help.</p>
+     <section
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    Inside the book
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    Inside: the parts you’ll underline, argue with, and keep coming back to.
+  </p>
+
+        <p className="mt-3 text-neutral-300">Direct. Annotated. No recycled self-help.</p>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
-          <Shot src="/cover.jpg" alt="Sample spread 1" />
-          <Shot src="/cover.jpg" alt="Sample spread 2" />
-          <Shot src="/cover.jpg" alt="Sample spread 3" />
+          <Shot src="/spread1.png" alt="Sample spread 1" />
+          <Shot src="/spread2.png" alt="Sample spread 2" />
+          <Shot src="/spread3.png" alt="Sample spread 3" />
         </div>
       </section>
 
       {/* FAQ (native disclosure for a11y) */}
-      <section className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">FAQ</h2>
+      <section
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    FAQ
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    Quick answers to the most common questions.
+  </p>
+
         <div className="mt-6 space-y-3">
           <Faq q="Is this therapy?" a="No. It’s tactics. Clear systems and confrontations you can apply daily." />
           <Faq q="Can I use this while studying/working?" a="Yes. It’s built for overloaded people balancing school, work, and life." />
-          <Faq q="How is this different from typical self-help?" a="No fake positivity. No fluff. Raw, direct, practical steps that compound." />
+          <Faq q="How is this different from typical self-help?" a="No fake positivity, not feel-good quotes. Real tactics you will actually use." />
           <Faq q="How long is the book?" a="Long enough to change how you move; short enough to finish and apply." />
         </div>
       </section>
 
       {/* COMING SOON */}
-      <section className="mx-auto max-w-6xl px-6 py-14 border-t border-neutral-900">
-        <h2 className="text-2xl md:text-3xl font-semibold">Coming soon</h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-3">
-          <Coming title="Blog" />
-          <Coming title="Courses" />
-          <Coming title="Guides" />
-        </div>
+     <section
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    Coming soon
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    Future expansions of the project, stay tuned.
+  </p>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+  <Coming title="Blog" highlight="bg-violet-600 text-white" />
+  <Coming title="Courses" highlight="bg-pink-600 text-white" />
+  <Coming title="Guides" highlight="bg-indigo-600 text-white" />
+</div>
       </section>
 
       {/* FINAL CTA */}
@@ -213,7 +258,7 @@ export default function Home() {
             Read it, use it, and you won’t move the same again.
           </p>
           <a
-            href="https://gumroad.com/l/PRODUCT_ID" /* TODO: replace */
+            href="https://deethinks.gumroad.com/l/CtrlAltGrow" /* TODO: replace */
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded-xl bg-violet-600 px-6 py-3 font-medium hover:bg-violet-500 transition focus:outline-none focus:ring-2 focus:ring-violet-500/60"
@@ -222,8 +267,8 @@ export default function Home() {
           </a>
         </div>
         <p className="mt-6 text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} Dee — All rights reserved.
-        </p>
+  © {new Date().getFullYear()} DUA EZZ (aka Dee Thinks) — All rights reserved.
+</p>
       </section>
     </main>
   );
@@ -432,10 +477,14 @@ function IconCrown() {
   );
 }
 
-function Coming({ title }: { title: string }) {
+function Coming({ title, highlight }: { title: string; highlight?: string }) {
   return (
     <div className="rounded-2xl border border-neutral-900 bg-neutral-900/40 p-6 text-center">
-      <div className="inline-flex rounded-full bg-neutral-800 px-3 py-1 text-xs text-neutral-300">
+      <div
+        className={`inline-flex rounded-full px-3 py-1 text-xs font-medium ${
+          highlight || "bg-neutral-800 text-neutral-300"
+        }`}
+      >
         Coming soon
       </div>
       <h3 className="mt-3 text-lg font-semibold text-neutral-200">{title}</h3>
