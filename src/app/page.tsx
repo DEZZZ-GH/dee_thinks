@@ -4,13 +4,22 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
+     <header className="flex flex-col items-center pt-4">
+  <a href="/">
+    <img 
+      src="/logo.png" 
+      alt="DEE THINKS Logo" 
+      className="h-20 w-20 rounded-full"
+    />
+  </a>
+</header>
+
       {/* HERO */}
-      <section className="mx-auto max-w-6xl px-6 pt-20 pb-16 md:pt-28">
+      <section className="mx-auto max-w-6xl px-6 pt-10 pb-16 md:pt-28">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
             <p className="text-xs uppercase tracking-widest text-neutral-400">Ebook</p>
-            {/* Keep title placeholder for now (you said we’ll lock titles later) */}
-            <h1 className="mt-3 text-4xl font-semibold md:text-6xl">
+           <h1 className="mt-3 text-4xl font-semibold md:text-6xl">
               CTRL ALT GROW
             </h1> 
             <p className="mt-2 text-lg italic text-neutral-500">
