@@ -1,6 +1,8 @@
 // app/page.tsx
 // Single-page MVP for your self-mastery ebook (purple theme, minimal + sharp)
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
@@ -49,7 +51,7 @@ export default function Home() {
 
           <div className="relative">
             <div className="rounded-2xl border border-neutral-800 bg-neutral-900/60 p-3">
-              <a
+              <Link
   href="https://deethinks.gumroad.com/l/CtrlAltGrow"
   target="_blank"
   rel="noopener noreferrer"
@@ -59,7 +61,7 @@ export default function Home() {
     alt="Ebook cover"
     className="w-full max-w-sm mx-auto rounded-xl shadow-lg cursor-pointer transition hover:opacity-90"
   />
-</a>
+</Link>
             </div>
             <div
               aria-hidden
