@@ -22,8 +22,8 @@ export default function Home() {
            <h1 className="mt-3 text-4xl font-semibold md:text-6xl">
               CTRL ALT GROW
             </h1> 
-            <p className="mt-2 text-lg italic text-neutral-500">
-  by DUA EZZ <span className="not-italic text-neutral-400">(aka Dee Thinks)</span>
+            <p className="mt-2 text-lg italic text-neutral-400">
+  by DEE THINKS
 </p>
             <p className="mt-4 max-w-xl text-neutral-300">
               Self-help failed you. This is clarity for when you’re stuck in the spiral.
@@ -276,7 +276,7 @@ export default function Home() {
           </a>
         </div>
         <p className="mt-6 text-center text-xs text-neutral-500">
-  © {new Date().getFullYear()} DUA EZZ (aka Dee Thinks) — All rights reserved.
+  © {new Date().getFullYear()} DEE THINKS — All rights reserved.
 </p>
       </section>
     </main>
