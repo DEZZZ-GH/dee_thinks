@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-100 antialiased">
      <header className="flex flex-col items-center pt-4">
-  <a href="/">
+  <Link href="/">
     <img 
       src="/logo.png" 
       alt="DEE THINKS Logo" 
       className="h-20 w-20 rounded-full"
     />
-  </a>
+  </Link>
 </header>
 
       {/* HERO */}
