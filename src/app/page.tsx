@@ -322,8 +322,8 @@ Not everyone fears death for the same reason...</p>
     Future expansions of the project, stay tuned.
   </p>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-  <Coming title="Blog" highlight="bg-violet-600 text-white" />
+        <div className="mt-12 grid gap-6 md:grid-cols-2">
+  {/* <Coming title="Articles" highlight="bg-violet-600 text-white" /> */}
   <Coming title="Courses" highlight="bg-pink-600 text-white" />
   <Coming title="Guides" highlight="bg-indigo-600 text-white" />
 </div>
