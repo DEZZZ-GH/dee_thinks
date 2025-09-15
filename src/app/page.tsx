@@ -1,7 +1,7 @@
 // app/page.tsx
 // Single-page MVP for your self-mastery ebook (purple theme, minimal + sharp)
 
-import Link from "next/link";
+import Link from "next/link"; 
 
 export default function Home() {
   return (
@@ -167,7 +167,77 @@ export default function Home() {
             ]}
           />
         </div>
-      </section>
+      </section> 
+      {/* ARTICLES PREVIEW SECTION */}
+<section
+  id="articles"
+  className="mx-auto max-w-6xl px-6 py-20 border-t border-neutral-900 text-center"
+>
+  <h2 className="text-3xl md:text-4xl font-bold tracking-tight inline-block">
+    Latest Articles
+    <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-violet-600"></div>
+  </h2>
+  <p className="mt-4 max-w-2xl mx-auto text-neutral-400">
+    If it feels messy, good. That means it’s real
+  </p>
+
+  <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+    {/* ARTICLE CARD 1 */}
+    <a href="https://medium.com/@deethinks/welcome-to-the-chaos-why-everything-feels-broken-57294eaff4d3" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article1.jpg"
+        alt="Why self-help failed"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">Welcome to the Chaos: Why Everything Feels Broken? </h3>
+      <p className="text-neutral-400 text-sm">
+We’re running on empty. Working harder...</p>
+    </div>
+  </a>
+
+    {/* ARTICLE CARD 2 */}
+    <a href="https://medium.com/@deethinks/when-happiness-feels-like-a-death-sentence-8fc8c4f922fe" target="_blank" rel="noopener noreferrer">
+
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article2.jpg"
+        alt="Overthinking death"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">When Happiness Feels Like a Death Sentence</h3>
+      <p className="text-neutral-400 text-sm">
+Not everyone fears death for the same reason...</p>
+    </div>
+  </a>
+
+    {/* ARTICLE CARD 3 */}
+    <a href="https://medium.com/@deethinks/the-psychological-impact-of-abuse-on-a-child-244f39b5c38a" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article3.jpg"
+        alt="childhood abuse impact"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">The psychological impact of abuse on a child</h3>
+      <p className="text-neutral-400 text-sm">
+        Overwhelming Fear and Hypervigilance...
+      </p>
+    </div>
+    </a>
+
+    {/* "SEE MORE" BUTTON CARD */}
+<div className="bg-violet-600 rounded-2xl flex items-center justify-center p-6 hover:bg-violet-700 transition">
+  <Link href="/articles" className="text-xl font-bold text-white">
+    Explore All Articles →
+  </Link>
+</div>
+
+     
+  </div>
+</section>
+
 
       {/* 3 BENEFITS */}
       <section
