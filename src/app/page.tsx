@@ -196,8 +196,22 @@ export default function Home() {
 We’re running on empty. Working harder...</p>
     </div>
   </a>
+      {/* ARTICLE CARD 2 */}
+ <a href="https://medium.com/@deethinks/the-ego-prison-a616efa698af" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article5.jpg"
+        alt="egoprison"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">The Ego Prison</h3>
+      <p className="text-neutral-400 text-sm">
+        We like to believe the “self” is who we really are. But...
+      </p> 
+    </div>
+    </a>
 
-    {/* ARTICLE CARD 2 */}
+    {/* ARTICLE CARD 3 */}
     <a href="https://medium.com/@deethinks/when-happiness-feels-like-a-death-sentence-8fc8c4f922fe" target="_blank" rel="noopener noreferrer">
 
     <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
@@ -213,19 +227,7 @@ Not everyone fears death for the same reason...</p>
   </a>
 
     {/* ARTICLE CARD 3 */}
-    <a href="https://medium.com/@deethinks/the-psychological-impact-of-abuse-on-a-child-244f39b5c38a" target="_blank" rel="noopener noreferrer">
-    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
-      <img
-        src="/articles/article3.jpg"
-        alt="childhood abuse impact"
-        className="rounded-lg mb-4 w-full h-40 object-cover"
-      />
-      <h3 className="text-xl font-semibold mb-2">The psychological impact of abuse on a child</h3>
-      <p className="text-neutral-400 text-sm">
-        Overwhelming Fear and Hypervigilance...
-      </p>
-    </div>
-    </a>
+   
 
     {/* "SEE MORE" BUTTON CARD */}
 <div className="bg-violet-600 rounded-2xl flex items-center justify-center p-6 hover:bg-violet-700 transition">

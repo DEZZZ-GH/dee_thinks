@@ -1,6 +1,12 @@
 export default function ArticlesPage() {
 const articles = [
   {
+    title: "The Ego Prison",
+    desc: "We like to believe the “self” is who we really are. But most of the time, it’s just the ego running the show, this fragile construct of memory, fear, comparison, and performance. The ego gives us an identity, but...",
+    image: "/articles/article5.jpg",
+    link: "https://medium.com/@deethinks/the-ego-prison-a616efa698af"
+  },
+  {
     title: "Welcome to the Chaos: Why Everything Feels Broken?",
     desc: "We’re running on empty. Working harder, hustling faster, and burning out sooner than any generation before us...",
     image: "/articles/article1.jpg",
@@ -8,7 +14,7 @@ const articles = [
   },
   {
     title: "When Happiness Feels Like a Death Sentence",
-    desc: "We’re running on empty. Working harder, hustling faster, and burning out sooner than any generation before us...",
+    desc: "Not everyone fears death for the same reason. For some, the fear isn’t about leaving life behind. It isn’t about the unknown...",
     image: "/articles/article2.jpg",
     link: "https://medium.com/@deethinks/when-happiness-feels-like-a-death-sentence-8fc8c4f922fe"
   },
@@ -23,8 +29,19 @@ const articles = [
     desc: "I’ve noticed something about myself that doesn’t seem to line up with how most people work. Whenever I share something bad that happened, I don’t want comfort or sympathy...",
     image: "/articles/article4.jpg",
     link: "https://medium.com/@deethinks/am-i-overreacting-for-hating-comforting-replies-3acfb087cc49"
-  }
-  // 👉 Add more articles here as you publish
+  },
+  {
+    title: "DEATH ISN’T SCARY, IT’S JUST A REALLY SHITTY PLOT TWIST",
+    desc: "Let’s cut the bullshit. You’re not curled up in bed at 3AM because you’re scared of dying. You’re wide awake because death isn’t terrifying — it’s fucking lazy writing....",
+    image: "/articles/article6.webp",
+    link: "https://medium.com/@deethinks/death-isnt-scary-it-s-just-a-really-shitty-plot-twist-2f061ede8ab3"
+  }, 
+  {
+    title: "Why you can’t sit still: it’s not ADHD, it’s Survival Mode",
+    desc: "That constant need to move, scroll, do—it’s not laziness or ADHD. It’s a nervous system that never got to feel safe...",
+    image: "/articles/article7.webp",
+    link: "https://medium.com/@deethinks/why-you-cant-sit-still-it-s-not-adhd-it-s-survival-mode-cc908974c3b8"
+  },
 ];
 
   return (
