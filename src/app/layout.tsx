@@ -15,6 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "CTRL ALT GROW – Self-Mastery by Dee Thinks",
   description: "Clarity, control, and identity shifts for people tired of fake self-help. Articles, ebook, and tools for self-mastery.",
+  icons: {
+  icon: [
+    { url: "/favicon.ico" },
+    { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }
+  ],
+  apple: "/apple-touch-icon.png",
+},
   keywords: ["self mastery", "ego", "subconscious mind", "emotions", "personal growth", "self-help clarity"],
   authors: [{ name: "Dee Thinks" }],
   openGraph: {
