@@ -1,12 +1,45 @@
 export default function ArticlesPage() {
 const articles = [
+ {
+    title: "The Dark Side of Self-Improvement",
+    desc: "Self-improvement sounds harmless, who wouldn’t want to be a better version of themselves? But once you scratch past the shiny covers of self-help books and motivational posts, the picture gets uglier....",
+    image: "/articles/article8.jpg",
+    link: "https://medium.com/@deethinks/the-dark-side-of-self-improvement-f536bc5d9695",
+keywords: [
+  "child emotional abuse",
+  "long term trauma",
+  "childhood mental health",
+  "abuse impact",
+  "toxic stress",
+  "childhood emotional abuse effects",
+  "long term psychological effects",
+  "mental health after trauma",
+  "trauma recovery",
+  "emotional neglect in childhood",
+  "adverse childhood experiences",
+  "complex trauma",
+  "healing from child abuse",
+  "symptoms of childhood trauma",
+  "emotional wounds",
+  "abuse survivors mental health",
+  "toxic relationships and childhood",
+  "trauma therapy",
+  "shame and childhood abuse",
+  "impact of emotional neglect",
+  "PTSD from childhood",
+  "recovery from toxic stress",
+  "attachment trauma",
+  "intergenerational trauma",
+  "emotional resilience"
+]
+  },
   {
     title: "The Ego Prison",
     desc: "We like to believe the “self” is who we really are. But most of the time, it’s just the ego running the show, this fragile construct of memory, fear, comparison, and performance. The ego gives us an identity, but...",
     image: "/articles/article5.jpg",
     link: "https://medium.com/@deethinks/the-ego-prison-a616efa698af",
     keywords: ["ego psychology", "subconscious mind", "identity defense", "psychological freedom", "ego balance"]
-  },
+  }, 
   {
     title: "Welcome to the Chaos: Why Everything Feels Broken?",
     desc: "We’re running on empty. Working harder, hustling faster, and burning out sooner than any generation before us...",

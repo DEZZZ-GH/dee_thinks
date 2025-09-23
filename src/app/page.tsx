@@ -197,17 +197,16 @@ We’re running on empty. Working harder...</p>
     </div>
   </a>
       {/* ARTICLE CARD 2 */}
- <a href="https://medium.com/@deethinks/the-ego-prison-a616efa698af" target="_blank" rel="noopener noreferrer">
+ <a href="https://medium.com/@deethinks/the-dark-side-of-self-improvement-f536bc5d9695" target="_blank" rel="noopener noreferrer">
     <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
       <img
-        src="/articles/article5.jpg"
-        alt="egoprison"
+        src="/articles/article8.jpg"
+        alt="scam_society"
         className="rounded-lg mb-4 w-full h-40 object-cover"
       />
-      <h3 className="text-xl font-semibold mb-2">The Ego Prison</h3>
+      <h3 className="text-xl font-semibold mb-2">The Dark Side of Self-Improvement</h3>
       <p className="text-neutral-400 text-sm">
-        We like to believe the “self” is who we really are. But...
-      </p> 
+Self-improvement sounds harmless, who wouldn’t want to be a better version of themselves? But once you...</p> 
     </div>
     </a>
 
