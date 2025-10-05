@@ -254,17 +254,28 @@ keywords: [
         What I don’t say out loud, I put here. Updated as I publish new work.
       </p>
 
-      {/* FOLLOW ME ON MEDIUM BUTTON */}
-      <div className="flex justify-center mt-8">
-        <a
-          href="https://medium.com/@deethinks"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-violet-600 text-white font-semibold rounded-xl shadow hover:bg-violet-700 transition"
-        >
-          Follow me on Medium →
-        </a>
-      </div>
+{/* BUTTONS SECTION */}
+<div className="flex justify-center mt-6 gap-3 flex-wrap sm:flex-nowrap">
+  {/* FOLLOW ME ON MEDIUM BUTTON */}
+  <a
+    href="https://medium.com/@deethinks"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-violet-600 text-white font-semibold rounded-xl shadow hover:bg-violet-700 transition"
+  >
+    Follow me on Medium →
+  </a>
+
+  {/* BUY MY EBOOK BUTTON */}
+  <a
+    href="https://your-ebook-link-here.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-orange-600 text-white font-semibold rounded-xl shadow hover:bg-orange-700 transition"
+  >
+    Get eBook →
+  </a>
+</div>
 
       {/* ARTICLES GRID */}
       <div className="mt-12 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
