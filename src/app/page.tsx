@@ -181,7 +181,21 @@ export default function Home() {
     If it feels messy, good. That means it’s real
   </p>
 
-  <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+  <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3"> 
+
+    {/* ARTICLE CARD 1 */}
+    <a href="https://medium.com/@deethinks/goldfish-have-a-longer-career-plan-than-you-do-d6e976950922" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article9.webp"
+        alt="You span is fried"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">Goldfish Have a Longer Career Plan Than You Do</h3>
+      <p className="text-neutral-400 text-sm">
+Everywhere you go, attention feels like it’s on...</p>
+    </div>
+  </a> 
 
     {/* ARTICLE CARD 1 */}
     <a href="https://medium.com/@deethinks/welcome-to-the-chaos-why-everything-feels-broken-57294eaff4d3" target="_blank" rel="noopener noreferrer">
@@ -206,7 +220,7 @@ We’re running on empty. Working harder...</p>
       />
       <h3 className="text-xl font-semibold mb-2">The Dark Side of Self-Improvement</h3>
       <p className="text-neutral-400 text-sm">
-Self-improvement sounds harmless, who wouldn’t want to be a better version of themselves? But once you...</p> 
+Self-improvement sounds harmless, who...</p> 
     </div>
     </a>
 
@@ -223,9 +237,33 @@ Self-improvement sounds harmless, who wouldn’t want to be a better version of 
       <p className="text-neutral-400 text-sm">
 Not everyone fears death for the same reason...</p>
     </div>
-  </a>
-
-    {/* ARTICLE CARD 3 */}
+  </a> 
+  {/* ARTICLE CARD 2 */}
+ <a href="https://medium.com/@deethinks/the-ego-prison-a616efa698af" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article5.jpg"
+        alt="scam_society"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">The Ego Prison</h3>
+      <p className="text-neutral-400 text-sm">
+We like to believe the “self” is who we really are. But...</p> 
+    </div>
+    </a> 
+    {/* ARTICLE CARD 2 */}
+ <a href="https://medium.com/@deethinks/the-psychological-impact-of-abuse-on-a-child-244f39b5c38a" target="_blank" rel="noopener noreferrer">
+    <div className="bg-neutral-900 rounded-2xl p-6 shadow hover:shadow-lg transition text-left">
+      <img
+        src="/articles/article3.jpg"
+        alt="child_abuse"
+        className="rounded-lg mb-4 w-full h-40 object-cover"
+      />
+      <h3 className="text-xl font-semibold mb-2">The psychological impact of abuse on a child</h3>
+      <p className="text-neutral-400 text-sm">
+The psychological impact of severe and...</p> 
+    </div>
+    </a>
    
 
     {/* "SEE MORE" BUTTON CARD */}
