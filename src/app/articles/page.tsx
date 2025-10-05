@@ -268,7 +268,7 @@ keywords: [
 
   {/* BUY MY EBOOK BUTTON */}
   <a
-    href="https://your-ebook-link-here.com"
+    href="https://deethinks.gumroad.com/l/CtrlAltGrow"
     target="_blank"
     rel="noopener noreferrer"
     className="px-6 py-3 bg-orange-600 text-white font-semibold rounded-xl shadow hover:bg-orange-700 transition"
