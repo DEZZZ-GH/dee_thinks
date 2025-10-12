@@ -20,7 +20,9 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 pt-10 pb-16 md:pt-28">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
-            <p className="text-xs uppercase tracking-widest text-neutral-400">Ebook</p>
+<p className="text-base tracking-widest text-neutral-400 font-bold mb-2 border-b border-neutral-600 inline-block pb-1">
+  eBOOK
+</p>
            <h1 className="mt-3 text-4xl font-semibold md:text-6xl">
               CTRL ALT GROW
             </h1> 
