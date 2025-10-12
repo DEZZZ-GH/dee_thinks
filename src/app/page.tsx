@@ -25,7 +25,7 @@ export default function Home() {
               CTRL ALT GROW
             </h1> 
             <p className="mt-2 text-lg italic text-neutral-400">
-  by DEE THINKS
+  by DEE THINKS aka DEZZZ
 </p>
             <p className="mt-4 max-w-xl text-neutral-300">
               Self-help failed you. This is clarity for when you’re stuck in the spiral.
